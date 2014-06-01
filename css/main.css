@@ -1,0 +1,112 @@
+body {
+	margin: 20px;
+	background-color: #D0ECFF;
+	font-family: 'Oswald', sans-serif;
+}
+
+.main {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.top, .logo, .item_entry {
+	display: inline-block;
+}
+
+.logo, .item_entry {
+	float: left;
+}
+
+.top {
+	min-width: 480px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.item_entry {
+	padding: 110px 0 0px 0px;
+	width:300px;
+	font-size: 14pt;
+	line-height: 25pt;
+}
+
+.item_entry p {
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 28px;
+}
+
+#item_entry_form {
+	padding: none;
+	margin: none;
+}
+
+input {
+	border: 1px solid white;
+	background-color: white;
+	padding: 4px;
+	font-family: "Oswald", sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 13pt;
+	color: gray;
+}
+
+#entered_item {
+	border: 1px solid white;
+	width: 190px;
+}
+
+#entered_item:hover, #add:hover {
+	border: 1px solid #4DDBB8;
+}
+
+#entered_item:focus, #add:focus {
+	outline: none;
+	border: 1px solid #4DDBB8;
+}
+
+#add:hover {
+	background-color: #4DDBB8;
+	color: white;
+	cursor: pointer;
+}
+
+#add{
+	width: 40px;
+}
+
+#list {
+	margin:auto;
+	width: 480px;
+	display: block;
+	clear: both;
+	margin-bottom: 60px;
+}
+
+.list_item {
+	background-color: #FFFFAD;
+	border-bottom: 1px solid #8AE6B8;
+	padding: 10px;
+	font-size: 12pt;
+}
+.list_item:hover {
+	color: #4DDBB8;
+	cursor: pointer;
+}
+
+li {
+	background-color: #FFFFAD;
+	border-bottom: 1px solid #8AE6B8;
+	padding: 10px;
+	font-size: 12pt;
+	cursor: pointer;
+}
+li:hover {
+	color: #4DDBB8;
+	
+}
+.cross_off {
+	color: #4DDBB8;
+	text-decoration: line-through;
+}
